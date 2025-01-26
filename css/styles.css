@@ -111,12 +111,12 @@
 
     /* theme color variations
      */
-    --color-1-lightest              : hsla(144, 37%, 79%, 1);
-    --color-1-lighter               : hsla(144, 37%, 69%, 1);
-    --color-1-light                 : hsla(144, 37%, 49%, 1);
-    --color-1-dark                  : hsla(144, 37%, 29%, 1);
-    --color-1-darker                : hsla(144, 37%, 19%, 1);
-    --color-1-darkest               : hsla(144, 37%, 9%, 1);
+    --color-1-lightest              : hsla(328, 100%, 79%, 1);
+    --color-1-lighter               : hsla(328, 100%, 69%, 1);
+    --color-1-light                 : hsla(328, 100%, 49%, 1);
+    --color-1-dark                  : hsla(328, 100%, 29%, 1);
+    --color-1-darker                : hsla(328, 100%, 19%, 1);
+    --color-1-darkest               : hsla(328, 100%, 9%, 1);
 
     --color-2-lighter               : hsla(12, 89%, 59%, 1);
     --color-2-light                 : hsla(12, 89%, 49%, 1);
@@ -2776,6 +2776,7 @@ img.u-pull-right {
 
 img.u-pull-left {
     margin : var(--vspace-0_5) var(--vspace-0_875) var(--vspace-0_5) 0;
+    border-radius: 30%;
 }
 
 /* responsive video container
@@ -3304,7 +3305,7 @@ img.u-pull-left {
     bottom              : 0;
     width               : 100%;
     height              : 100%;
-    background-image    : url(../images/hero-bg-3000.jpg);
+    background-image    : url(../images/bb.jpg);
     background-repeat   : no-repeat;
     background-position : center;
     background-size     : cover;
@@ -3674,10 +3675,11 @@ img.u-pull-left {
 .s-about {
     --screen-width   : 340px;
     --screen-height  : 736px;
-    padding-top      : var(--vspace-2);
+    padding-top      : var(--vspace-1);
     padding-bottom   : var(--vspace-2);
     background-color : var(--color-white);
 }
+
 
 /* --------------------------------------------------------------------
  * ## stats
@@ -3735,7 +3737,6 @@ img.u-pull-left {
     margin-top    : 0;
     margin-bottom : var(--vspace-0_75);
 }
-
 /* --------------------------------------------------------------------
  * ## screens
  * -------------------------------------------------------------------- */
@@ -4179,7 +4180,7 @@ img.u-pull-left {
 }
 
 .s-pricing__content {
-    padding-top : var(--vspace-2);
+    padding-top : var(--vspace-4);
     position    : relative;
 }
 
