@@ -3674,9 +3674,9 @@ img.u-pull-left {
 .s-about {
     --screen-width   : 340px;
     --screen-height  : 736px;
-    padding-top      : var(--vspace-5);
-    padding-bottom   : var(--vspace-5);
-    background-color : var(--color-gray-6);
+    padding-top      : var(--vspace-2);
+    padding-bottom   : var(--vspace-2);
+    background-color : var(--color-white);
 }
 
 /* --------------------------------------------------------------------
@@ -3724,7 +3724,7 @@ img.u-pull-left {
  * ## info
  * -------------------------------------------------------------------- */
 .s-about__info {
-    margin-top : var(--vspace-4);
+    margin-top : var(--vspace-1);
 }
 
 .s-about__info-slider {
@@ -4078,7 +4078,7 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-testimonials {
-    padding-top : var(--vspace-5);
+    padding-top : var(--vspace-2);
 }
 
 .s-testimonials__header {
@@ -4179,7 +4179,7 @@ img.u-pull-left {
 }
 
 .s-pricing__content {
-    padding-top : var(--vspace-5);
+    padding-top : var(--vspace-2);
     position    : relative;
 }
 
